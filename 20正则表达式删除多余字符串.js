@@ -4,5 +4,5 @@
  * 注意：你只需要完成正则表达式的编写。
  */
 
- const TRIM_REGX = /(^\s*) | (\s*$)/
+ const TRIM_REGX = /(^\s*) | (\s*$)/g
 
