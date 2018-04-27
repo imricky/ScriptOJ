@@ -1,5 +1,4 @@
 const initArray = (m, n) => {
-  /* TODO */
   //循环很简单，但是如果不用循环来做，应该怎么做啊...
   // let finalArr = [];
   // for (let i = 0; i < m; i++) {
