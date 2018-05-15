@@ -13,6 +13,7 @@ itemsPerPage 为 0 的时候返回 0。
 你只需要完成 getPages 函数。
  */
 
+/*我的答案*/
 const getPages = (total, itemsPerPage) => {
   let count = 0;
   if (total < 0) return 0;
@@ -27,6 +28,11 @@ const getPages = (total, itemsPerPage) => {
   return count;
 };
 
-getPages(111,10);
+getPages(111,0);
+
+/*参考答案*/
+const getPages = (total, itemsPerPage) => {
+  return itemsPerPage > 0 ? Math.ceil(total / itemsPerPage) : 0
+}
 
 
