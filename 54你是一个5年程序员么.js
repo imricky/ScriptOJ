@@ -1,3 +1,8 @@
+/*
+那么，为证明你的实力，请写出一个函数 initArray ，
+接受两个参数 m 和 n，返回一个数组，它的长度是 m，每个值都是 n。
+ */
+
 const initArray = (m, n) => {
   //循环很简单，但是如果不用循环来做，应该怎么做啊...
   // let finalArr = [];
@@ -13,8 +18,8 @@ const initArray = (m, n) => {
 
 
   /*通过测试*/
-  let b = [].fill.call(new Array(m),n);
-  console.log(b)  //[ 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 ]
+  let b = [].fill.call(new Array(m), n);
+  console.log(b);  //[ 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 ]
 
   /*参考答案*/
   const initArray = (m, n) => {
@@ -25,5 +30,4 @@ const initArray = (m, n) => {
 };
 
 
-
-initArray(10,3);
+initArray(10, 3);
