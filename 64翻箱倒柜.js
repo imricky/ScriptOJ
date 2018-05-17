@@ -13,7 +13,11 @@
 
 class Box {
   constructor(arr){
-    return arr;
+    let a = {};
+    return function* (){
+      yield 1;
+      yield 2;
+    }
   }
 
 }
