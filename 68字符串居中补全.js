@@ -27,9 +27,12 @@ const centerPad = (str, len, pad) => {
   }
 
   //情况1 hello 6 'abc'
-  if((len-strLength)<strLength){
+  if ((len - strLength) < strLength) {
     let res = str.split('').join(pad)
   }
 };
 
 centerPad('Hello', 30, 'abc'); // => 'Hello'
+
+
+
